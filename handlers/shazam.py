@@ -63,7 +63,7 @@ async def edit_or_reply(message, text, parse_mode="md"):
     return await message.edit(text, parse_mode=parse_mode)
 
 
-@Client.on_message(command(["shazam", f"shazam@{BOT_USERNAME}"]))
+@Client.on_message(command(["shazam", f"shazam@SNEHABHI_MUSICxBOT"]))
 async def shazamm(client, message):
     kek = await edit_or_reply(message, "`Shazaming In Progress!`")
     if not message.reply_to_message:
@@ -97,7 +97,7 @@ async def shazamm(client, message):
 Song Name : {title}
 Song By : {by}
 Identified Song
-Powered by @{BOT_USERNAME}
+Powered by @ABHI_NETWORK
 """
     await client.send_photo(message.chat.id, image, messageo, parse_mode="HTML")
     os.remove(downloaded_file_name)
