@@ -38,20 +38,20 @@ async def _human_time_duration(seconds):
     return ', '.join(parts)
 
 
-@Client.on_message(filters.command(["alive", f"alive@{BOT_USERNAME}"]))
+@Client.on_message(filters.command(["alive", f"alive@SNEHABHI_MUSICxBOT"]))
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_photo(
-        photo=f"{BOT_IMG}",
-        caption=f"""**༄ Holla I'm [{bn}](https://t.me/{BOT_USERNAME})**
+        photo=f"https://telegra.ph/file/e2985056a4f04fa0cc649.jpg",
+        caption=f"""**༄ Holla I'm [𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝚄𝚂𝙸𝙲](https://t.me/SNEHABHI_MUSICxBOT)**
 
 ༄ **I'm Working Properly**
 
 ༄ **Bot : 6.0 LATEST**
 
-༄ **My Master : [{dn}](https://t.me/{OWNER_NAME})**
+༄ **My Master : [ABHISHEK](https://t.me/SNEHU_IS_MINE)**
 
 ༄ **Service Uptime : `{uptime}`**
 
@@ -63,7 +63,7 @@ async def alive(client: Client, message: Message):
                         "ᴀʙᴏᴜᴛ", callback_data="cbabout"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ABHI_NETWORK1"
                     )
                 ]
             ]
