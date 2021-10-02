@@ -111,7 +111,7 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            f"\n\nOr manually add @{ASSISTANT_NAME} to your Group and try again</b>",
+            f"\n\nOr manually add @{SNEHABHI_MUSIC} to your Group and try again</b>",
         )
         return
     await message.reply_text(
