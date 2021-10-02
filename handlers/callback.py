@@ -35,20 +35,20 @@ async def _human_time_duration(seconds):
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>👋 **Hello {message.from_user.mention}** ❗ \n
-**[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Is a bot designed to play music in your voice chat groups!**
+**[{𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝚄𝚂𝙸𝙲](https://t.me/SNEHABHI_MUSICxBOT) Is a bot designed to play music in your voice chat groups!**
 **To see some commands for using this bot, click » /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/SNEHABHI_MUSICxBOT?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "ʀᴇᴘᴏ​​", url="https://github.com/KennedyProject/KennedyXMusic"
+                        "ʀᴇᴘᴏ​​", url="https://t.me/ABHI_NETWORK"
                     ),
                     InlineKeyboardButton(
-                        "ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{GROUP_SUPPORT}")
+                        "ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ABHI_NETWORK")
                 ],[
                     InlineKeyboardButton(
                         "ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​ ❓​", callback_data="cbguide"
@@ -89,7 +89,7 @@ __{bn} licensed under the GNU General Public License v.3.0__
             [
                 [
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ​​", url="https://github.com/KennedyProject/KennedyXMusic"
+                        "sᴏᴜʀᴄᴇ​​", url="https://t.me/ABHI_NETWORK"
                     ),
                     InlineKeyboardButton(
                         "ʙᴀᴄᴋ​", callback_data="cbadvanced"
@@ -108,7 +108,7 @@ async def cbhelp(_, query: CallbackQuery):
 
 **In this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
-💡 Bot by @{UPDATES_CHANNEL}""",
+💡 Bot by @SNEHU_IS_MINE""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -161,7 +161,7 @@ async def cbbasic(_, query: CallbackQuery):
 /start - starting bot
 /ping - show current ping
 
-💡 Bot by @{UPDATES_CHANNEL}""",
+💡 Bot by @SNEHU_IS_MINE""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -180,13 +180,13 @@ async def cbadvanced(_, query: CallbackQuery):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await query.edit_message_text(
-        f"""**༄ Holla I'm [{bn}](https://t.me/{BOT_USERNAME})**
+        f"""**༄ Holla I'm [{𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝚄𝚂𝙸𝙲](https://t.me/SNEHABHI_MUSICxBOT)**
 
 ༄ **I'm Working Properly**
 
 ༄ **Bot : 6.0 LATEST**
 
-༄ **My Master : [{OWNER_NAME}](https://t.me/{OWNER_NAME})**
+༄ **My Master : [ABHISHEK](https://t.me/SNEHU_IS_MINE)**
 
 ༄ **Service Uptime : `{uptime}`**
 
@@ -198,7 +198,7 @@ async def cbadvanced(_, query: CallbackQuery):
                         "ᴀʙᴏᴜᴛ", callback_data="cbabout"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ABHI_NETWORK1"
                     )
                 ]
             ]
@@ -219,7 +219,7 @@ async def cbadmin(_, query: CallbackQuery):
 /userbotjoin - invite assistant to join the group
 /musicplayer (on / off) - turn on / off the music player in your group
 
-💡 Bot by @{UPDATES_CHANNEL}""",
+💡 Bot by @SNEHU_IS_MINE""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -241,7 +241,7 @@ async def cbsudo(_, query: CallbackQuery):
 /gcast - send global messages via assistant
 /rmd - delete downloaded files
 
-💡 Bot by @{UPDATES_CHANNEL}**""",
+💡 Bot by @SNEHU_IS_MINE**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -266,7 +266,7 @@ async def cbfun(_, query: CallbackQuery):
 /dare - check it yourself
 /q - to make quotes text
 
-💡 Bot by @{UPDATES_CHANNEL}**""",
+💡 Bot by @SNEHU_IS_MINE**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -286,10 +286,10 @@ async def cbguide(_, query: CallbackQuery):
 
 **1.) First, add to your group.
 2.) Then make admin with all permissions except anonymous admin.
-3.) Add @{ASSISTANT_NAME} to your group or type `/userbotjoin` to invite assistant.
+3.) Add @SNEHABHI_MUSIC to your group or type `/userbotjoin` to invite assistant.
 4.) Turn on voice chat first before playing music.
 
-💡 Bot by @{UPDATES_CHANNEL}**""",
+💡 Bot by @SNEHU_IS_MINE**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
