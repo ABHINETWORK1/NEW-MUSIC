@@ -8,7 +8,7 @@
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
 - Python 3.8+ or Higher
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+- [SUPPORT GROUP](https://t.me/ABHI_NETWORK)
 
 ### Get STRING_SESSION from here:
 
@@ -65,18 +65,20 @@ The easy way to host this bot, deploy to Heroku
 - `curl -sL https://deb.nodesource.com/setup_16.x | bash -`
 - `sudo apt-get install -y nodejs`
 - `npm i -g npm`
-- `git clone https://github.com/KennedyProject/KennedyXMusic` # Clone your repo.
-- `cd KennedyXMusic`
+- `git clone https://github.com/ABHINETWORK1/NEW-MUSIC` # Clone your repo.
+- `cd NEW-MUSIC`
 - `pip3 install -U -r requirements.txt`
 - `cp example.env .env` #Use vim to edit ENVs
 - `vim .env` #Fill up your ENVs ( Steps press `i` to enter in insert mode then edit the file. Press `Esc` to exit the editing mode then type `:wq!` and press `Enter` key to save the file.)
 - `python3 main.py` # Run the bot
 
 ### Credits 🕊️
-- [Kennedy](https://github.com/KennedyProject) Dev
-- [Feri](https://github.com/FeriEXP) Contribitor
-- [RojSerBest](https://github.com/rojserbest) CallsMusic Developer
-- [Veez Music](https://github.com/levina-lab/veezmusic) Veez Music
+
+{ABHISHEK} (CREATOR) (http://t.me/SNEHU_IS_MINE)
+
+{SNEHU} (SUPPORTER) (http://t.me/ABHI_IS_MINE)
+
+
 
 ### Support & Updates 🛵
 <a href="https://t.me/ABHI_NETWORL"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/ABHI_NETWORK1"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
