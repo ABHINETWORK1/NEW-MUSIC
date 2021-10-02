@@ -23,7 +23,7 @@ from helpers.filters import command, other_filters
 from helpers.gets import get_url, get_file_name
 
 
-@Client.on_message(command(["stream", f"stream@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["stream", f"stream@SNEHABHI_MUSICxBOT"]) & other_filters)
 async def stream(_, message: Message):
 
     lel = await message.reply("🔁 **processing** sound...")
@@ -34,10 +34,10 @@ async def stream(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="ɢʀᴏᴜᴘ",
-                        url=f"https://t.me/{GROUP_SUPPORT}"),
+                        url=f"https://t.me/ABHI_NETWORK"),
                     InlineKeyboardButton(
                         text="ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/{UPDATES_CHANNEL}")
+                        url=f"https://t.me/ABHI_NETWORK1")
                 ]
             ]
         )
