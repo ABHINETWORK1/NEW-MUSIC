@@ -1,7 +1,7 @@
-<h1 align="centre">Kennedy X Music 🎵
+<h1 align="centre">SNEHABHI X Music 🎵
 
 ### Music bot for playing music on telegram voice chat group.
-<p align="center"><a href="https://t.me/KennedyXMusic"><img src="https://telegra.ph/file/634bc96909fc3963d2673.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/SNEHU_IS_MINE"><img src="https://telegra.ph/file/e2985056a4f04fa0cc649.jpg" width="300"></a></p>
 
 <h3>Requirements 📝</h3>
 
@@ -12,7 +12,7 @@
 
 ### Get STRING_SESSION from here:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@KennedyProject/Ken-String-Session#main.py)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@Botsupport/PatriciaXmusic)
 
 
 ### Commands 🛠
@@ -55,7 +55,7 @@
 ### Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KennedyProject/KennedyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ABHINETWORK1/NEW-MUSIC)
 
 ### Deploy On VPS 💙
 
@@ -79,4 +79,4 @@ The easy way to host this bot, deploy to Heroku
 - [Veez Music](https://github.com/levina-lab/veezmusic) Veez Music
 
 ### Support & Updates 🛵
-<a href="https://t.me/kenbotsupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/KennedyProject"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ABHI_NETWORL"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/ABHI_NETWORK1"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
