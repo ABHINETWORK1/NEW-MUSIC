@@ -195,7 +195,7 @@ async def settings(client, message):
 
 
 @Client.on_message(
-    command(["musicplayer", f"musicplayer@{BOT_USERNAME}"]) & ~filters.edited & ~filters.bot & ~filters.private
+    command(["musicplayer", f"musicplayer@SNEHABHI_MUSICxBOT"]) & ~filters.edited & ~filters.bot & ~filters.private
 )
 @authorized_users_only
 async def hfmm(_, message):
@@ -433,7 +433,7 @@ async def m_cb(b, cb):
             await cb.answer("assistant is not connected to voice chat !", show_alert=True)
 
 
-@Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["play", f"play@SNEHABHI_MUSICxBOT"]) & other_filters)
 async def play(_, message: Message):
     global que
     global useer
@@ -488,7 +488,7 @@ async def play(_, message: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>{user.first_name} was banned in this group, ask admin to unban @{ASSISTANT_NAME} manually.</i>"
+            f"<i>{user.first_name} was banned in this group, ask admin to unban @SNEHABHI_MUSIC manually.</i>"
         )
         return
     text_links=None
@@ -525,7 +525,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ABHI_NETWORK1"),
                     InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="closed")
                 ],
             ]
@@ -570,7 +570,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ABHI_NETWORK1"),
                     InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="closed")
                 ],
             ]
@@ -598,7 +598,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:24]}...](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├ 💡 Duration - {results[j]['duration']}\n"
-                toxxt += f" └ ⚡ __Powered by [{bn}](https://t.me/{BOT_USERNAME})__\n\n"
+                toxxt += f" └ ⚡ __Powered by [{bn}](https://t.me/SNEHU_IS_MINE)__\n\n"
                 j += 1            
             keyboard = InlineKeyboardMarkup(
                 [
@@ -643,7 +643,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ABHI_NETWORK1"),
                     InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="closed")
                 ],
             ]
@@ -739,7 +739,7 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ABHI_NETWORK1"),
                     InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="closed")
                 ],
             ]
@@ -885,7 +885,7 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ABHI_NETWORK1"),
                     InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="closed")
                 ],
             ]
