@@ -37,8 +37,7 @@ async def cbstart(_, query: CallbackQuery):
         f"""<b>👋 **Hello {message.from_user.mention}** ❗ \n
 **[{𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝚄𝚂𝙸𝙲](https://t.me/SNEHABHI_MUSICxBOT) Is a bot designed to play music in your voice chat groups!**
 **To see some commands for using this bot, click » /help**
-</b>""",
-        reply_markup=InlineKeyboardMarkup(
+reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
